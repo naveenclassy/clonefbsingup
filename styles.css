@@ -1,0 +1,168 @@
+body,
+#head1,
+.innerdivhead,
+.innerdivpara {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.maindiv {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#head1 {
+    color: #0866ff;
+    font-size: 56px;
+    padding: 20px 0px;
+
+
+}
+
+.signupform {
+    background-color: white;
+    width: 432px;
+    border-radius: 8px;
+
+
+}
+
+.innerdiv {
+
+    text-align: center;
+    padding: 13px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.innerdivhead {
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.innerdivpara {
+    color: #606770;
+    font-size: 14.5px;
+}
+
+.formfilling {
+    padding: 10px;
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.sec1 {
+    padding: 13px;
+    border: 1px solid #dadde1;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.divsec1 {
+    display: flex;
+    width: 49%;
+    padding-top: 9px;
+    padding-bottom: 8.5px;
+}
+
+.divsec2 {
+
+    display: flex;
+    width: 100%;
+    padding: 4.2px 0px;
+}
+
+.sec2 {
+    padding: 13px;
+    border: 1px solid #dadde1;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.label {
+    padding: 7px 0px;
+    color: #6a7079;
+    font-size: 13px;
+}
+
+.dobform,
+.gender {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.divsec3 {
+    display: flex;
+    width: 31.5%;
+}
+
+.sec3 {
+    padding: 8px;
+    border: 1px solid #dadde1;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.divsec4 {
+    display: flex;
+    width: 31.5%;
+    justify-content: space-between;
+}
+
+.radiobtn {
+    padding: 8px;
+    border: 1px solid #dadde1;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec5{
+    color: #777777;
+    font-size: 11px;
+    padding-top: 12px;
+ 
+   
+}
+.sec6{
+    color: #777777;
+    font-size: 11px;
+    padding-top: 14px;   
+}
+.button{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sec7{
+    padding: 2px 26px;
+    color: white;
+    background-color: #00a400;
+    border: 1px solid #00a400;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.already{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#already{
+    color: #1877f2;
+    text-decoration: none;
+}

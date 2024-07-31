@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>facebook sigup</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="maindiv">
+        <div>
+            <h1 id="head1">facebook</h1>
+        </div>
+        <form id="signvalidate">
+            <div class="signupform">
+                <div class="innerdiv">
+                    <h2 class="innerdivhead">Create a new account</h2>
+                    <p class="innerdivpara">It's quick and easy.</p>
+
+                </div>
+                <div class="formfilling">
+                    <div class="divsec1">
+                        <input class="sec1" type="text" placeholder="First name" name="firstname">
+                    </div>
+                    <div class="divsec1">
+                        <input class="sec1" type="text" placeholder="Sur name" name="surname">
+
+                    </div>
+                    <div class="divsec2">
+                        <input class="sec2" name="phoneno"type="number" placeholder="Mobile number or email address">
+                    </div>
+                    <div class="divsec2">
+                        <input class="sec2" type="password" name="password" placeholder="New password">
+                    </div>
+                    <label class="label">Date of birth</label>
+                    <div class="dobform">
+                        <div class="divsec3">
+                            <select name="dob"class="sec3">
+                                <option value="">choose</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+
+                            </select>
+                        </div>
+                        <div class="divsec3"  >
+                            <select class="sec3" name="dob">
+                                <option value="">choose</option>
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="Mar">Mar</option>
+                                <option value="Apr">Apr</option>
+                                <option value="May">May</option>
+                                <option value="Jun">Jun</option>
+                                <option value="Jul">Jul</option>
+                                <option value="Aug">Aug</option>
+                                <option value="Sep">Sep</option>
+                                <option value="Oct">Oct</option>
+                                <option value="Nov">Nov</option>
+                                <option value="Dec">Dec</option>
+                            </select>
+                        </div>
+                        <div class="divsec3">
+                            <select class="sec3">
+                                <option>choose</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                    <option>2010</option>
+                                    <option>2011</option>name="dob"
+                            </select>
+                        </div>
+
+                    </div>
+                    <label class="label">Gender</label>
+                    <div class="gender">
+                        <div class="divsec4">
+                            <div class="radiobtn">
+                                <label for="gender">Female</label>
+                                <input name="gender" type="radio" class="sec4">
+                            </div>
+                        </div>
+                        <div class="divsec4">
+                            <div class="radiobtn">
+                                <label for="gender">Male</label>
+                                <input type="radio"  name="gender"class="sec4">
+                            </div>
+                        </div>
+                        <div class="divsec4">
+                            <div class="radiobtn">
+                                <label for="gender">Custom</label>
+                                <input type="radio" name="gender"class="sec4">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <small class="sec5">People who use our service may have uploaded your contact information to
+                        Facebook.<a style="color: #5772a8;  text-decoration: none;"
+                            href="https://www.facebook.com/help/637205020878504"> Learn more.
+                            <a></small>
+                    <small class="sec6">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.
+                        You may receive SMS notifications from us and can opt out at any time.
+                    </small>
+                </div>
+                <div class="button">
+                    <button class="sec7">Sign Up</button>
+                </div>
+                <div class="already">
+                    <a id="already"href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIyNDExNDM5LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">Already have an account?</a>
+                </div>
+
+
+
+            </div>
+    </div>
+
+    </div>
+
+
+    </form>
+    <br>
+    <br>
+    <br>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+<script src="scripts.js"></script>
+</html>
